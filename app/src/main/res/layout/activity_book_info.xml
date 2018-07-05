@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backg"
+    android:orientation="vertical"
+    tools:context="com.jack.e_book.ui.BookInfoActivity">
+
+    <include layout="@layout/book_info_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="45dp"
+            android:src="@mipmap/nobook" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_bookInfo_bookName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="书籍名称：   狂神"
+                android:textColor="@color/colorBlack"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/text_bookInfo_bookAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="作        者：   唐家三少"
+                android:textColor="@color/colorBlack"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/text_bookInfo_bookUploadTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="上传时间：   2016-09-28"
+                android:textColor="@color/colorBlack"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/text_bookInfo_bookSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="大        小：   3.0M"
+                android:textColor="@color/colorBlack"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评        分："
+            android:textColor="@color/colorBlack"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/start2"/>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/start2"/>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/start2"/>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/start2"/>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/start1"/>
+
+        <Button
+            android:id="@+id/btn_bookInfo_load"
+            android:layout_gravity="center_vertical"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:background="@mipmap/bs_btn_vip_down" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:text="介        绍："
+        android:textColor="@color/colorBlack"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/text_bookInfo_bookIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+        android:text="     末法时代将临，天地间充斥着五衰之气，九洲大结界即将破碎，更有域外天魔蠢蠢欲动，暗中谋密。
+      在这妖孽辈出的动荡年代，一名白瞳少年秉持道心，带着一本唠叨的魔道宝典，于邪崇地狱中，踏出了一条净从秽出，明由暗生的证道之路。"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp" />
+
+
+</LinearLayout>

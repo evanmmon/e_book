@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">逆袭电子书</string>
+    <string name="localBookShop">本地书库</string>
+    <string name="bookShop">书城</string>
+    <string name="bookName">书籍信息</string>
+    <string name="back">返回</string>
+    <string name="bookrack">书架</string>
+    <string name="bookList">书籍列表</string>
+    <string name="bookInfo">书籍信息</string>
+    <string name="add">添加</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
